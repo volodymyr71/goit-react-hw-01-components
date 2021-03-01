@@ -1,0 +1,19 @@
+.profile {
+  display: block;
+  background-color: #f0f6fc;
+  padding: 30px;
+  justify-content: center;
+}
+
+.description {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+}
+
+.stats {
+  padding: 20px;
+  list-style: none;
+  width: 300px;
+  background-color: white;
+}
