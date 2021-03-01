@@ -18,23 +18,6 @@ const Statistics = ({ title, stats }) => {
               </li>
             );
           })}
-          {/*           
-          <li className={style.item}>
-            <span className={style.label}>.docx</span>
-            <span className={style.percentage}>4%</span>
-          </li>
-          <li className={style.item}>
-            <span className={style.label}>.mp3</span>
-            <span className={style.percentage}>14%</span>
-          </li>
-          <li className={style.item}>
-            <span className={style.label}>.pdf</span>
-            <span className={style.percentage}>41%</span>
-          </li>
-          <li className={style.item}>
-            <span className={style.label}>.mp4</span>
-            <span className={style.percentage}>12%</span>
-          </li> */}
         </ul>
       </section>
     </>
