@@ -5,6 +5,10 @@ import Statistics from "./components/Statistics/Statistics";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 
 import profileUsers from "./db/user.json";
+import statisticsData from "./db/statistical-data.json";
+
+console.log(statisticsData);
+
 const { name, tag, location, avatar, stats } = profileUsers;
 
 function App() {
@@ -19,7 +23,7 @@ function App() {
         stats={stats}
       />
       <FriendList />
-      <Statistics />
+      <Statistics title="statistics" stats={statisticsData} />
       <TransactionHistory />
     </div>
   );
