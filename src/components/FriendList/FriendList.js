@@ -5,21 +5,19 @@ import PropTypes from "prop-types";
 
 const FriendList = ({ friends }) => {
   return (
-    <>
-      <ul className={style.friendList}>
-        {friends.map((el) => {
-          const { avatar, name, isOnline, id } = el;
-          return (
-            <FriendListItem
-              avatar={avatar}
-              name={name}
-              isOnline={isOnline}
-              key={id}
-            />
-          );
-        })}
-      </ul>
-    </>
+    <ul className={style.friendList}>
+      {friends.map((el) => {
+        const { avatar, name, isOnline, id } = el;
+        return (
+          <FriendListItem
+            avatar={avatar}
+            name={name}
+            isOnline={isOnline}
+            key={id}
+          />
+        );
+      })}
+    </ul>
   );
 };
 
